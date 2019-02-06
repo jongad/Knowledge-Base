@@ -31,7 +31,7 @@ git push
 ### Move to remove branch
 ```
 git branch -a
-git checkout `branch_name` origin/`branch_name`
+git checkout -b `branch_name` origin/`branch_name`
 ```
 
 ### Stop asking for username and password
