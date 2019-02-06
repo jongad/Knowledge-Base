@@ -28,6 +28,12 @@ git commit -m 'Pushing new code'
 git push
 ```
 
+### Move to remove branch
+```
+git branch -a
+git checkout `branch_name` origin/`branch_name`
+```
+
 ### Stop asking for username and password
 -Start by creating the ssh key
 ```
