@@ -28,7 +28,7 @@ git commit -m 'Pushing new code'
 git push
 ```
 
-### Move to remove branch
+### Move to remote branch
 ```
 git branch -a
 git checkout -b `branch_name` origin/`branch_name`
