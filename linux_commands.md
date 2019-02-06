@@ -40,7 +40,8 @@ git checkout -b `branch_name` origin/`branch_name`
 cd ~
 ssh-keygen -t rsa
 ```
-- Add `~/.ssh/id_rsa.pub` as a key in the account settings on the github website
+- Copy+paste the content of `~/.ssh/id_rsa.pub` into a Deploy Key in the Settings of the github repo
+- Move to the project repo in the terminal
 - Get the current project repo
 ```
 git remote show origin
@@ -48,4 +49,8 @@ git remote show origin
 - Modify it so that it works
 ```
 git remote set-url origin git+ssh://git@github.com/username/reponame.git
+```
+or as an example for the lab
+```
+git remote set-url origin git+ssh://git@githubifc.iad.ca.inet/UBI/ubi_weather.git
 ```
