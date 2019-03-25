@@ -100,3 +100,14 @@ git rebase origin/master
 ```
 git commit --amend
 ```
+
+### Stage the removal of a file from a repo (and leave untracked file in working tree)
+```
+git rm --cached <filePath>
+```
+
+### Unstage any status change to a file
+```
+git reset -- <filePath>
+```
+
