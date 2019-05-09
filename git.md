@@ -20,6 +20,7 @@ git push
 
 ### Move to remote branch
 ```
+git fetch
 git branch -a
 git checkout -b `branch_name` origin/`branch_name`
 ```
